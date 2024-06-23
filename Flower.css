@@ -1,0 +1,20 @@
+.flower{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+    width: 900px;
+   margin: 70px auto;
+}
+
+.flw{
+    transition-duration: 0.3s;
+    filter: grayscale(100%);
+}
+
+.flw:hover{
+
+    box-shadow:10px 10px 25px black;
+    cursor: pointer;
+    filter: grayscale(0%);
+}
